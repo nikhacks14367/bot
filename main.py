@@ -49,7 +49,7 @@ TOKEN = '7974520296:AAFqN007W5k3g2MLu7KrRka7bj5nuDNxpA0' # Replace with your act
 OWNER_ID = 6606762486 # Replace with your Owner ID
 ADMIN_ID = 6606762486 # Replace with your Admin ID (can be same as Owner)
 YOUR_USERNAME = '@nik_editz' # Replace with your Telegram username (without the @)
-UPDATE_CHANNEL = '@thecardernik' # Replace with your update channel link
+UPDATE_CHANNEL = 'https://t.me/thecardernik' # Replace with your update channel link
 
 # Folder setup - using absolute paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__)) # Get script's directory
