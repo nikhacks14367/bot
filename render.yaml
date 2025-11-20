@@ -1,9 +1,17 @@
+version: "1"
+projects:
+- name: Telegram Bot
+  environments:
+  - name: Production
 services:
   - type: web
     name: telegram-bot-host
     env: python
     plan: free
+    region: oregon
+    repo: https://github.com/nikhacks14367/bot
     branch: main
+    autoDeploy: true
     buildCommand: |
       pip install -r requirements.txt
     startCommand: |
