@@ -45,7 +45,7 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = '7974520296:AAFqN007W5k3g2MLu7KrRka7bj5nuDNxpA0' # Replace with your actual token
+TOKEN = '7974520296:AAHslTX2-oT2TZbYV8M7r8xtkZ-zJrqPtB4' # Replace with your actual token
 OWNER_ID = 6606762486 # Replace with your Owner ID
 ADMIN_ID = 6606762486 # Replace with your Admin ID (can be same as Owner)
 YOUR_USERNAME = '@nik_editz' # Replace with your Telegram username (without the @)
@@ -58,7 +58,7 @@ IROTECH_DIR = os.path.join(BASE_DIR, 'inf') # Assuming this name is intentional
 DATABASE_PATH = os.path.join(IROTECH_DIR, 'bot_data.db')
 
 # File upload limits
-FREE_USER_LIMIT = 5
+FREE_USER_LIMIT = 7
 SUBSCRIBED_USER_LIMIT = 15 # Changed from 10 to 15
 ADMIN_LIMIT = 999       # Changed from 50 to 999
 OWNER_LIMIT = float('inf') # Changed from 999 to infinity
